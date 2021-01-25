@@ -45,19 +45,7 @@ table {
 /* CSS Reset */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
 
-@media (max-width:800px) {
-    .top-nav {
-        flex-flow: column wrap;
-        align-content: center;
-    }
-}
 
-@media (max-width: 500px) {
-    .top-nav {
-        flex-flow: column wrap;
-        align-content: center;
-    }
-}
 .top-nav {
     /* display: flex; 
      justify-content: space-evenly; 
@@ -76,13 +64,13 @@ h1 {
 .top-nav {
     display: flex;
     flex-flow: row wrap;
-    padding-left: 35%;
-    padding:;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
-.top-nav a{
+.top-nav button{
     display: flex;
-    width: 10%;
+    width: 25%;
     border: 2px solid black;
     background-color: burlywood;
     color: white;
@@ -91,6 +79,7 @@ h1 {
     flex-flow: row;
     text-decoration: none;
     padding: .5em;
+
 }
 
 .intro{
@@ -144,7 +133,7 @@ footer {
   display: flex;
 }
 
-footer a{
+footer button{
   display: flex;
   width: 10%;
   border: 2px solid ;
@@ -161,11 +150,13 @@ footer a{
 @media (max-width:800px) {
 
     .top-nav {
-        flex-flow: column wrap;
-        padding: 0%;
+        flex-flow: column wrap;    
+        align-items: center;
+        width: 75%;
+        padding-left: 12.5%;
     }
 
-    .top-nav a{
+    .top-nav button{
         width: 75%;
         text-align: center;
     }
@@ -191,9 +182,6 @@ footer a{
 }
 
 @media (max-width: 500px) {
-    .top-nav a{
-        flex-flow: column wrap;
-        color: black;
-
+      
     }
 }
