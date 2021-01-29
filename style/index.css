@@ -19,7 +19,7 @@ time, mark, audio, video {
     vertical-align: baseline;
     color: white;
     background-color: black;
-    
+
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -76,7 +76,7 @@ h1 {
     width: 25%;
     border: 2px solid black;
     background-color: burlywood;
-    color: white;
+    /* color: white; */
     justify-content: space-evenly;
     text-align: center;
     flex-flow: row;
@@ -140,7 +140,7 @@ footer {
 footer button{
   display: flex;
   width: 10%;
-  border: 2px solid ;
+  border: 2px ;
   background-color: burlywood;
   color: white;
   justify-content: center;
