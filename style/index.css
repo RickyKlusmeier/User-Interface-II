@@ -129,7 +129,8 @@ footer {
   display: flex;
   justify-content: space-evenly; */
   height: 15%;
-  background-color:aquamarine;
+  padding-bottom: 5%;
+  background-color:;
   display: flex;
 }
 
